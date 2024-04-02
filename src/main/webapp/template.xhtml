@@ -6,43 +6,19 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <h:head>
         <title>Facelet Title</title>
+        <h:outputStylesheet library="aula" name="css/estilo.css"></h:outputStylesheet>
     </h:head>
     <h:body>
-        <style>
-            html, body {
-                margin: 0;
-                padding: 0;
-                height: 100vh;
-                font-family: sans-serif;
-            }
-            body {
-                display: flex;
-                flex-direction: column;
-            }
-            header {
-                background: #9900cc;
-            }
-            header .logo {
-                height: 70px;
-                font-size: 50px;
-            }
-            main {
-                flex: 1;
-            }
-            footer {
-                padding: 20px;
-                background: #9900cc;
-            }
-        </style>
         <header>
             <div class="logo">
-                IFTM
+                <h:graphicImage library="aula" name="imagens/logo.png"></h:graphicImage>
             </div>
             <p:menubar >
                 <p:menuitem value="Inicio" url="index.xhtml"></p:menuitem>
                 <p:submenu label="Cadastros"  icon="pi pi-fw pi-pencil">
                     <p:menuitem value="Produtos" url="cadastro-produto.xhtml"></p:menuitem>
                     <p:menuitem value="Clientes" url="cadastro-cliente.xhtml"></p:menuitem>
+                    <p:menuitem value="Fornecedor" url="cadastro/cadastro-fornecedor.xhtml"></p:menuitem>
                 </p:submenu>
                 <p:submenu label="Ajuda"  icon="pi pi-fw pi-question">
                     <p:menuitem value="Consulta" url="cadastro-produto.xhtml"></p:menuitem>

@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.com.professordanilo</groupId>
-    <artifactId>aula01-jsf</artifactId>
+    <artifactId>aula01-jsf-2024</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
 
-    <name>aula01-jsf</name>
+    <name>Aula01 JSF 2024</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
